@@ -3,3 +3,168 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+
+}
+/* --------header part----------- */
+h1 {
+    margin-bottom: 20px;
+    line-height: 70px;
+    font-size: 30px;
+}
+p {
+    color: dimgray;
+    font-size: 15px;
+}
+section{
+  
+    padding: 80px 100px;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.half-part {
+    flex-basis: 50%;
+    padding: 0px 25px;
+    margin-bottom: 50px;
+}
+
+.half-part img {
+    width: 100%;
+}
+.text-part {
+    
+    flex-basis: 60%;
+   
+}
+
+.header-h2 {
+    font-weight: 500;
+}
+
+button {
+    background: linear-gradient(to right, #f953c6, #b91d73); 
+    margin-top: 25px;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.header-h1 {
+    color: #f953c6;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+#header-part {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:800px) {
+.container {
+    flex-direction: column;
+}
+.work-sample img {
+   
+   margin-bottom: 40px;
+}
+}
+/* -----------biography section--------------- */
+#biography-part .text-part {
+    flex-basis: 50%;
+    margin-left: 50px;
+}
+.title {
+    font-weight: 600;
+}
+#biography-part {
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+.biography-p {
+    text-align: justify;
+}
+
+/* ---------------portfolio section---------------- */
+#portfolio-section h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.work-sample img {
+    width: 100%;
+   
+}
+
+.middle-img {
+    margin: 0 40px;
+}
+#portfolio-section {
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* -- ------------review section------------- -- */
+#review-section {
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+#review-section h1 {
+    margin-bottom: 40px;
+}
+#review-section  p {
+    font-size: 13px;
+    margin-bottom:30px ;
+}
+#review-section h4 {
+    margin-bottom: 5px;
+}
+blockquote {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 70px;
+
+}
+
+.contact {
+    background: linear-gradient(to right, #f953c6, #b91d73);
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding: 60px 30px;
+    border-radius: 12px;
+    word-wrap: break-word;
+   
+   
+}
+.contact h5 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.email {
+    font-size: 20px;
+}
+/* -----------footer section-------------- */
+footer p {
+    font-weight: 550;
+    font-size: 14px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
